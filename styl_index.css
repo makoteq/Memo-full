@@ -1,0 +1,122 @@
+body{
+  background-image:url("hex.png");
+  margin:0.5%;
+  color:white;
+  font-family: 'Bree Serif', serif;
+}
+header{
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 10vh;
+  padding:2px 2px;;
+  border-bottom:1px white solid;
+  display: flex;
+	justify-content: center;
+  align-items: center; 
+  text-align: center;
+}
+.hed{
+  text-shadow: 1px 1px red;
+  font-size:3em;
+  margin:0;
+}
+.big{
+  width:100%;
+  height:50%;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: inset 0 0 30px red;
+  margin-bottom:1vh ;
+  text-align: center;
+}
+.big:hover{
+  background-color: #e6e6e6;
+}
+.small{
+  width:49%;
+  height:50%;
+  background-color: white;
+  box-shadow: inset 0 0 30px red;
+  float: left;
+  text-align: center;
+}
+.small:hover{
+  background-color: #e6e6e6;
+}
+#contener{
+  width:50%;
+  height:42vh;
+  margin: 0 auto;
+  text-align: center;
+}
+#inne{
+  margin-left: 2%
+}
+.footer {
+  font-size: 1em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top:1px white solid;
+  color: white;
+  text-align: center;
+}
+.button {
+  border-radius: 50px;
+	background-color: white;
+	border: 5px solid red;
+	font-size: 2em;
+	color: red;
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+  margin: 2vh;
+  transition: background-color linear 1s;
+  }
+  .button:hover{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  .con{
+    text-align: center;
+    height: 50%;;
+  }
+  .tryb{
+  font-size: 1em;
+  border-radius: 50px;
+  color:red;
+  text-decoration: none;
+  display: none;
+  float: left;
+  height: 50%;
+  width: 20%;
+  background-color: white;
+  }
+  .tryb:hover{
+    color:white;
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  #latwy{
+    margin-left: 18%;
+    margin-right: 2%
+  }
+  #trudny{
+    margin-right:18%;
+    margin-left: 2%;
+  }
+  table {
+    color:black;
+    text-align: center;
+    border: 2px solid rgb(201, 201, 201);
+    margin: 0 auto;
+  }
+  td,th{
+    color:black;
+    background-color: #e9e9e9;
+  }
+  .hip{
+    color:white;
+  }

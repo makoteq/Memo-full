@@ -1,0 +1,39 @@
+body{
+    background-image:url("hex.png");
+    margin:0.5%;
+    color:white;
+    font-family: 'Bree Serif', serif;
+  }
+  .tab {
+    background-color: #ffffff;
+    color:black;
+    text-align: center;
+    border: 2px solid rgb(201, 201, 201);
+    margin:0 auto;
+  }
+  td{
+    background-color: #e9e9e9;
+  }
+  .con{
+    float: left;
+    width:20%;
+    text-align: center;
+    margin-left:10%;
+  }
+  .tryb{
+    font-size: 2em;
+    text-shadow: 1px 1px red;
+  }
+  .footer {
+    font-size: 1em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top:1px white solid;
+    color: white;
+    text-align: center;
+  }
+  .hip{
+    color: white;
+  }
