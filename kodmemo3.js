@@ -122,7 +122,7 @@ function theEnd() {
   }).then(value => {
     switch (value) {
       case "main":
-        window.location.assign("http://localhost:8080/memo/");
+        window.location.assign("http://localhost:8080/memo-full/");
         break;
 
       case "reload":
@@ -171,7 +171,7 @@ function saveScore() {
         button: "NICE!"
       })
       .then((value) => {
-        window.location.assign("http://localhost:8080/memo/");
+        window.location.assign("http://localhost:8080/memo-full/");
       });
     },
     error: function(xhr, ajaxOptions, thrownError) {

@@ -12,6 +12,9 @@ body{
     background-color:white;
     outline: 1px solid red ;
 	}
+	.pole:hover{
+		background-color: #e6e6e6;
+	}
 #blok4{
 	clear:both;
 }
