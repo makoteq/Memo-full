@@ -50,9 +50,6 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-#inne {
-  margin-left: 2%;
-}
 .footer {
   font-size: 1em;
   position: fixed;
@@ -130,4 +127,5 @@ td {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 2%;
 }

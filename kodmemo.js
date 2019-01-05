@@ -140,7 +140,7 @@ function addUserName() {
     content: {
       element: "input",
       attributes: {
-        placeholder: "Write your username"
+        placeholder: "Write your username (max 10 words)"
       }
     }
   }).then(value => {
