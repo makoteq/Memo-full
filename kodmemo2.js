@@ -93,14 +93,15 @@ function spr(id) {
       click = 1;
       console;
     }
-    if (sukces >= 5 && sukces + blad == 6) {
+    if (((sukces==6) &&(sukces + blad == 6))||((sukces== 6)&&(sukces + blad == 7))) {
       document.getElementById("button").innerHTML = "next level";
       level++;
       blokada = 0;
       blokada2 = 0;
-    } else if (sukces + blad == 6) {
+    } else if (sukces + blad>6) {
       theEnd();
     }
+    
   }
 }
 function rem(id1, color1) {
@@ -143,13 +144,11 @@ function addUserName() {
     content: {
       element: "input",
       attributes: {
-        placeholder: "Write your username"
+        placeholder: "Write your username (max 10 words)"
       }
     }
   }).then(value => {
-    username = value;
-    console.log(username);
-    saveScore();
+    check(value);
   });
 }
 
@@ -178,4 +177,13 @@ function saveScore() {
       alert("Sorry something went wrong!");
     }
   });
+}
+function check(vol){
+if(vol.length>10){
+  alert("MAX 10 WORDS!");
+  addUserName();
+  }else{
+    username = vol;
+    saveScore();
+  }
 }

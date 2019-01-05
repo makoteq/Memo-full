@@ -60,7 +60,7 @@ function Zaczynamy() {
       document.getElementById("img" + i).src = "";
       blokada = 1;
     }
-  }, 4000);
+  }, 3000);
 }
 function spr(id) {
   //blokada
@@ -147,9 +147,7 @@ function addUserName() {
       }
     }
   }).then(value => {
-    username = value;
-    console.log(username);
-    saveScore();
+    check(value);
   });
 }
 
@@ -179,3 +177,12 @@ function saveScore() {
     }
   });
 }
+function check(vol){
+  if(vol.length>10){
+    alert("MAX 10 WORDS!");
+    addUserName();
+    }else{
+      username = vol;
+      saveScore();
+    }
+  }
