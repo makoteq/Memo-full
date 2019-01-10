@@ -1,15 +1,17 @@
 body {
   background-image: url("hex.png");
-  margin: 0.5%;
   color: white;
   font-family: "Bree Serif", serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
 }
 .header {
   color: white;
   width: 100%;
   height: 10vh;
-  margin-bottom: 10vh;
-  padding: 2px 2px;
+  margin-bottom: 5vh;
   border-bottom: 1px white solid;
   display: flex;
   justify-content: center;
@@ -25,9 +27,8 @@ body {
   width: 100%;
   height: 50%;
   background-color: white;
-  margin: 0 auto;
-  box-shadow: inset 0 0 30px red;
   margin-bottom: 1vh;
+  box-shadow: inset 0 0 30px red;
   text-align: center;
 }
 .big:hover {
@@ -89,7 +90,6 @@ body {
   text-decoration: none;
   display: none;
   float: left;
-  height: 50%;
   width: 20%;
   background-color: white;
 }
@@ -105,14 +105,16 @@ body {
   margin-right: 18%;
   margin-left: 2%;
 }
-table {
+#list {
   color: black;
   text-align: center;
   border: 2px solid rgb(201, 201, 201);
   margin: 0 auto;
+  text-decoration: none;
 }
 td {
   background-color: #e9e9e9;
+  text-decoration: none;
 }
 .hip {
   color: white;
@@ -121,11 +123,46 @@ td {
   color: red;
   font-size: 1.5em;
 }
-#inne{
+#inne {
   font-size: 1.5em;
-  color:black;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2%;
+}
+@media screen and (max-width: 600px) {
+  #contener {
+    width: 100vw;
+    text-align: none;
+    margin: 0;
+  }
+  .big {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  .small {
+    width: 100%;
+    float: none;
+    margin-top: 2vh;
+  }
+  #inne {
+    float: none;
+    margin-left: 0;
+  }
+  .button {
+    font-size: 1em;
+  }
+  tr {
+    max-height: 2vh;
+  }
+  .tp {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0;
+  }
+  .u {
+    font-size: 0.5em;
+  }
 }
