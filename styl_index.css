@@ -166,3 +166,11 @@ td {
     font-size: 0.5em;
   }
 }
+@media screen and (max-width: 350px) {
+  #list{
+    font-size: 0.7em;
+  }
+  .tp{
+    font-size: 1.4em;
+  }
+}
