@@ -179,8 +179,7 @@ function saveScore() {
   });
 }
 function check(vol){
-if(vol.length>10){
-  alert("MAX 10 WORDS!");
+if(vol.length>10  || vol.length<=0){
   addUserName();
   }else{
     username = vol;

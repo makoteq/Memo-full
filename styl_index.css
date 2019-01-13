@@ -173,4 +173,7 @@ td {
   .tp{
     font-size: 1.4em;
   }
+  .button {
+    padding:10px;
+  }
 }

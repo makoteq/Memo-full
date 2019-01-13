@@ -49,3 +49,8 @@ body{
     }
 
   }
+  @media screen and (max-width: 350px) {
+    .tryb{
+      font-size: 1.2em;
+    }
+  }
