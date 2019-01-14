@@ -12,21 +12,21 @@ $(document).ready(function() {
       var txt2 = "<tr><th>User</th><th>Complete Levels</th></tr>";
       var txt3 = "<tr><th>User</th><th>Complete Levels</th></tr>";
       for (i = 0; i < size; i++) {
-        if (cout1 < 10) {
+        if (cout1 < 15) {
           if (obj.results[i].Mode == "Easy") {
             txt1 += "<tr><td>" + obj.results[i].username + "</td>";
             txt1 += "<td>" + obj.results[i].level + "</td></tr>";
             cout1++;
           }
         }
-        if (cout2 < 10) {
+        if (cout2 < 15) {
           if (obj.results[i].Mode == "Medium") {
             txt2 += "<tr><td>" + obj.results[i].username + "</td>";
             txt2 += "<td>" + obj.results[i].level + "</td></tr>";
             cout2++;
           }
         }
-        if (cout3 < 10) {
+        if (cout3 < 15) {
           if (obj.results[i].Mode == "Hard") {
             txt3 += "<tr><td>" + obj.results[i].username + "</td>";
             txt3 += "<td>" + obj.results[i].level + "</td></tr>";
