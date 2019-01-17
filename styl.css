@@ -32,6 +32,22 @@ a{
 	height:100vh;
 	max-height:300px;
 }
+.footer {
+	font-size: 1em;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px black solid;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	height: 20px;
+  }
+  .paragraf{
+	color: black;
+	margin: 0;
+  }
 #button {
 	border-radius: 50px;
 	background-color: white;
@@ -45,11 +61,13 @@ a{
 	margin: 2vh;
 	transition: background-color linear 1s;
 	}
-	#button:hover{
-	  color:white;
-	  background-color: rgba(255, 0, 0, 0.8);
-	}
-
+#button:hover{
+	 color:white;
+	 background-color: rgba(255, 0, 0, 0.8);
+}
+.hip{
+	color: black;
+}
 
 #licznik{
 	display: flex;

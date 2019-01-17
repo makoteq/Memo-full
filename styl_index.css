@@ -10,7 +10,7 @@ a {
 .header {
   color: white;
   width: 100%;
-  height: 10vh;
+  height: 15vh;
   margin-bottom: 5vh;
   border-bottom: 1px white solid;
   display: flex;
@@ -25,7 +25,7 @@ a {
 }
 .big {
   width: 100%;
-  height: 50%;
+  height: 200px;
   background-color: white;
   margin-bottom: 1vh;
   box-shadow: inset 0 0 30px red;
@@ -36,7 +36,7 @@ a {
 }
 .small {
   width: 49%;
-  height: 50%;
+  height: 200px;
   background-color: white;
   box-shadow: inset 0 0 30px red;
   float: left;
@@ -57,9 +57,15 @@ a {
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 1px white solid;
-  color: white;
+  border-top: 1px black solid;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  height: 20px;
+}
+.paragraf{
+  color: black;
+  margin: 0;
 }
 .button {
   border-radius: 50px;
@@ -72,7 +78,7 @@ a {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  margin: 2vh;
+  margin: 2%;
   transition: background-color linear 1s;
 }
 .button:hover {
@@ -83,6 +89,7 @@ a {
   text-align: center;
   height: 50%;
 }
+
 .tryb {
   font-size: 1em;
   border-radius: 50px;
@@ -90,7 +97,7 @@ a {
   text-decoration: none;
   display: none;
   float: left;
-  width: 20%;
+  min-width: 30%;
   background-color: white;
 }
 .tryb:hover {
@@ -98,11 +105,11 @@ a {
   background-color: rgba(255, 0, 0, 0.8);
 }
 #latwy {
-  margin-left: 18%;
+  margin-left: 3%;
   margin-right: 2%;
 }
 #trudny {
-  margin-right: 18%;
+  margin-right: 3%;
   margin-left: 2%;
 }
 #list {
@@ -117,7 +124,7 @@ td {
   text-decoration: none;
 }
 .hip {
-  color: white;
+  color: black;
 }
 .tp {
   color: red;
@@ -131,17 +138,7 @@ td {
   align-items: center;
   margin-left: 2%;
 }
-@media screen and (max-width: 800px) {
-  .tp {
-    text-decoration: none;
-    font-size: 1.2em;
-    
-  }
-  #list{
-    font-size: 0.8em;
-  }
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   #contener {
     width: 100vw;
     text-align: none;
@@ -151,11 +148,13 @@ td {
     width: 100%;
     float: none;
     margin: 0;
+    height: 160px;
   }
   .small {
     width: 100%;
     float: none;
     margin-top: 2vh;
+    height: 160px;
   }
   #inne {
     float: none;
@@ -170,10 +169,15 @@ td {
   .tp {
     text-decoration: none;
     font-size: 1.2em;
-    margin: 0;
   }
   .u {
-    font-size: 0.5em;
+    font-size: 0.8em;
+  }
+  .hed{
+    font-size: 2em;
+  }
+  .header{
+    height: 10vh;
   }
 }
 @media screen and (max-width: 350px) {
