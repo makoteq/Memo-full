@@ -4,9 +4,7 @@ var png = [
   "img/title_2.png",
   "img/title_3.png",
   "img/title_4.png",
-  "img/title_5.png",
-  "img/title_6.png",
-  "img/title_7.png"
+  "img/title_5.png"
 ];
 var array = [];
 var los1 = "";

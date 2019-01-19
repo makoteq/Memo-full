@@ -138,7 +138,7 @@ td {
   align-items: center;
   margin-left: 2%;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1025px) {
   #contener {
     width: 100vw;
     text-align: none;
